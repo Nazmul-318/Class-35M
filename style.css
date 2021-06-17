@@ -607,14 +607,10 @@ body .slider-section .container-fluid {
     font-weight: 600;
 }
 
-.p-line {
-    color: rgb(191, 199, 207);
-    box-shadow: 0 0 5px 0 rgba(209, 215, 221, 0.836);
+.p-line {   
     margin: 35px;
-}
-
-.p-line:hover {
-    background: rgba(0, 0, 0, 0.63);
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 35%, rgba(255,255,255,1) 100%);
 }
 
 /* =============================== */
